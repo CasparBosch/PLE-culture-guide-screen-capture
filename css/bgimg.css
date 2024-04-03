@@ -1,0 +1,7 @@
+.bg{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    /* background-color: plum; */
+}
