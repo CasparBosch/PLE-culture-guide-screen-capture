@@ -3,7 +3,12 @@
     width: 98%;
     max-width: 860px;
     background-color: whitesmoke;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
   }
+
+  
   
   #log {
     width: 25rem;
@@ -12,4 +17,5 @@
     padding: 0.5rem;
     overflow: scroll;
     background-color: whitesmoke;
+    border-radius: 5px;
   }

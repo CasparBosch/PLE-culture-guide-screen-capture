@@ -1,6 +1,8 @@
+// const featureExtractor = ml5.featureExtractor('MobileNet',{numLabels : 3}, modelLoaded)
 let video;
 let detector;
 let detections = [];
+// const label = document.getElementById("label");
 
 function setup() {
   createCanvas(640, 480);
@@ -8,6 +10,19 @@ function setup() {
   video.size(640, 480);
   video.hide();
 }
+
+// //loading model and custom model
+// function modelLoaded() {
+//   console.log('Model Loaded!')
+//   classifier = featureExtractor.classification(image, videoReady)
+//   classifier.load('./model\tm-my-image-model\model.json', customModelReady)
+// }
+
+// //custom model
+// function customModelReady(){
+//   console.log("Custom Model Is Ready")
+//   label.innerText = "Model is Ready"
+// }
 
 function videoReady() {
   // Models available are 'cocossd', 'yolo'
