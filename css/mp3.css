@@ -1,0 +1,15 @@
+.mp3-wrapper{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    right: 5rem;
+    top: 5rem;
+}
+
+.mp3{
+    margin: 5px;
+    border: 1px;
+    border-color: #555555;
+    border-radius: 5px;
+}
